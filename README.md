@@ -14,3 +14,14 @@ deconv.m: function deconv(y, h);
           deconvolve finite-length Matlab sequence object, y, 
           given impulse response sequence object, h, 
           returning sequence object, x.
+
+dtft.m: function dtft(x, w); 
+		Evaluate the Discrete Time Fourier Transform of Matlab sequence object, x, at
+        radial frequencies given by double array w. 
+        Returns a double array, y.
+
+dtft2.m:	function dtft2(x, w);
+			Evaluate the DTFT of Matlab sequence object, x, at 
+            frequencies given by array w. Return values are a structure 
+			with y.real (real part) and y.imag (imaginary part)
+

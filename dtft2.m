@@ -1,8 +1,5 @@
-% ENGR 451 LAB 4 DTFT 
-%
 % file: dtft2.m 
-% by: Marcian Diamond;  3.06.2013
-% SFSU SOE, ENGR451 S13, Dr. Holton
+% by: Marcian Diamond; 
 %
 % description:  DTFT2 Evaluate the DTFT of Matlab sequence object, x, at 
 %               frequencies given by array w. Return values are a structure 
